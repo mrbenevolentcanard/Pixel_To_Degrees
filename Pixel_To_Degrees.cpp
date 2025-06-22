@@ -22,37 +22,37 @@ int main() {
 	double referenceDegrees;
 	int pixels;
 	double degrees;
-	double PI = 3.141592653589793238462643383279502884;
+	const double PI = 3.141592653589793;
 
 
 
 	while (true) {
-		cout << "*********************************************\n";
-		cout << "          Pixel to Degree Converter\n";
-		cout << "*********************************************\n\n";
+		cout << "==================================================\n";
+		cout << " Pixel to Degrees Converter by mrbenevolentcanard\n";
+		cout << "==================================================\n\n";
 
-		cout << "How many pixels long is the reference length?: ";
+		cout << "Enter the length of the reference distance (px): ";
 		cin >> referencePixels;
-		cout << "What is the length in degrees?: ";
+		cout << "Enter that length (deg): ";
 		cin >> referenceDegrees;
 
-		cout << "\nHow many pixels long is the object?: ";
+		cout << "\nEnter the distace you want to know in degrees (px): ";
 		cin >> pixels;
 		degrees = pixels / (referencePixels / referenceDegrees);
 
 
 		system("CLS");
-		cout << "Result: ";
+		cout << "Result: The distance is ";
 
 		setColor(7, 1);
 		cout << degrees;
 		setColor(7, 0);
-		cout << " degrees or ";
+		cout << " degrees, or ";
 		setColor(7, 1);
 		cout << (degrees * PI / 180) * 1000;
 		setColor(7, 0);
-		cout << " millyradians.\n\n\n";
-	} 
+		cout << " millyradians long.\n\n\n";
+	}
 
 	return 0;
 }
