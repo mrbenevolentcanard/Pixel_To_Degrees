@@ -27,9 +27,10 @@ int main() {
 
 
 	while (true) {
-		cout << "==================================================\n";
-		cout << " Pixel to Degrees Converter by mrbenevolentcanard\n";
-		cout << "==================================================\n\n";
+		system("title Pixel to Degrees v1.1.0");
+		cout << "===========================================================\n";
+		cout << " Pixel to Degrees Converter by mrbenevolentcanard (v1.1.0)\n";
+		cout << "===========================================================\n\n";
 
 		cout << "Enter the length of the reference distance (px): ";
 		cin >> referencePixels;
