@@ -1,6 +1,6 @@
 # Pixel_To_Degrees
 ![Release](https://img.shields.io/github/v/release/mrbenevolentcanard/Pixel_To_Degrees) ![Static Badge](https://img.shields.io/badge/OS-Windows-red)<br>
-This is just a little program I made in order to learn a bit of C++. It is used for converting pixels on a picture or drawning to degrees & milliradians to ease the process of making a HUD in DCS: World. Note that this will work better the higher resolution the picture is.
+This is just a little program I made in order to learn a bit of C++. It is used for converting pixels on a picture or drawning to degrees & milliradians to ease the process of making a HUD in DCS World. Note that this will work better the higher resolution the picture is.
 
 ## Usage
 1. Open the .exe (or compile it yourself with the source code).
